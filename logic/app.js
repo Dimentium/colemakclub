@@ -573,6 +573,13 @@ function updateLayoutUI() {
 			break;
 		case 'ortho':
 			document.querySelector('.cheatsheet').innerHTML = orthoDivs;
+
+			layoutMaps.engram.KeyZ = 'g';
+			layoutMaps.engram.KeyX = 'x';
+			layoutMaps.engram.KeyC = 'j';
+			layoutMaps.engram.KeyV = 'k';
+			layoutMaps.engram.KeyB = ',';
+
 			layoutMaps.colemakdh.KeyZ = 'z';
 			layoutMaps.colemakdh.KeyX = 'x';
 			layoutMaps.colemakdh.KeyC = 'c';
