@@ -154,6 +154,7 @@ var isoDivs = `
 var orthoDivs = `
 	<div class=row>
 		<div class="twou"><span class="letter"></span></div>
+		<div class="key" id='Digit1'><span class="letter"></span></div>
 		<div class="key" id='KeyQ'><span class="letter"></span></div>
 		<div class="key" id='KeyW'><span class="letter"></span></div>
 		<div class="key" id='KeyE'><span class="letter"></span></div>
@@ -165,10 +166,12 @@ var orthoDivs = `
 		<div class="key" id='KeyI'><span class="letter"></span></div>
 		<div class="key" id='KeyO'><span class="letter"></span></div>
 		<div class="key" id='KeyP'><span class="letter"></span></div>
+		<div class="key" id='BracketLeft'><span class="letter"></span></div>
 		<div class="twou"><span class="letter"></span></div>
 	</div>
 	<div class=row>
 		<div class="twou"><span class="letter"></span></div>
+		<div class="key" id='Digit2'><span class="letter"></span></div>
 		<div class="key" id='KeyA'><span class="letter"></span></div>
 		<div class="key" id='KeyS'><span class="letter"></span></div>
 		<div class="key" id='KeyD'><span class="letter"></span></div>
@@ -180,10 +183,12 @@ var orthoDivs = `
 		<div class="key" id='KeyK'><span class="letter"></span></div>
 		<div class="key" id='KeyL'><span class="letter"></span></div>
 		<div class="key" id='Semicolon'><span class="letter"></span></div>
+		<div class="key" id='Quote'><span class="letter"></span></div>
 		<div class="twou"><span class="letter"></span></div>
 	</div>
 	<div class=row>
 		<div class="twou"><span class="letter"></span></div>
+		<div class="key" id='Digit3'><span class="letter"></span></div>
 		<div class="key" id='KeyZ'><span class="letter"></span></div>
 		<div class="key" id='KeyX'><span class="letter"></span></div>
 		<div class="key" id='KeyC'><span class="letter"></span></div>
@@ -195,6 +200,7 @@ var orthoDivs = `
 		<div class="key" id='Comma'><span class="letter"></span></div>
 		<div class="key" id='Period'><span class="letter"></span></div>
 		<div class="key" id='Slash'><span class="letter"></span></div>
+		<div class="key" id='BracketRight'><span class="letter"></span></div>
 		<div class="twou"><span class="letter"></span></div>
 	</div>
 	<div class=row>
