@@ -516,6 +516,12 @@ function updateLayoutUI() {
 	switch (currentKeyboard) {
 		case 'ansi':
 			document.querySelector('.cheatsheet').innerHTML = ansiDivs;
+			layoutMaps.engram.KeyZ = 'g';
+			layoutMaps.engram.KeyX = 'x';
+			layoutMaps.engram.KeyC = 'j';
+			layoutMaps.engram.KeyV = 'k';
+			layoutMaps.engram.KeyB = ',';
+			
 			layoutMaps.colemakdh.KeyZ = 'x';
 			layoutMaps.colemakdh.KeyX = 'c';
 			layoutMaps.colemakdh.KeyC = 'd';
@@ -543,6 +549,13 @@ function updateLayoutUI() {
 			break;
 		case 'iso':
 			document.querySelector('.cheatsheet').innerHTML = isoDivs;
+
+			layoutMaps.engram.KeyZ = 'g';
+			layoutMaps.engram.KeyX = 'x';
+			layoutMaps.engram.KeyC = 'j';
+			layoutMaps.engram.KeyV = 'k';
+			layoutMaps.engram.KeyB = ',';
+
 			layoutMaps.colemakdh.IntlBackslash = 'z';
 			layoutMaps.colemakdh.KeyZ = 'x';
 			layoutMaps.colemakdh.KeyX = 'c';
