@@ -1,6 +1,15 @@
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
 
 levelDictionaries = {
+	engram : {
+		'lvl1' : 'iealrn',
+		'lvl2' : 'to',
+		'lvl3' : 'su',
+		'lvl4' : 'dycg',
+		'lvl5' : 'hpmk',
+		'lvl6' : 'bwfz',
+		'lvl7' : alphabet,
+	},
 	azerty : {
 		'lvl1' : 'qsdfjklm',
 		'lvl2' : 'gh',
@@ -106,6 +115,41 @@ levelDictionaries = {
 
 
 var layoutMaps = {
+	engram : {
+		'KeyQ' : "b",
+		'KeyW' : 'y',
+		'KeyE' : 'o',
+		'KeyR' : 'u',
+		'KeyT' : "'",
+		'KeyY' : '"',
+		'KeyU' : 'l',
+		'KeyI' : 'd',
+		'KeyO' : 'w',
+		'KeyP' : 'v',
+		'BracketLeft' : 'z',
+		'KeyA' : 'c',
+		'KeyS' : 'i',
+		'KeyD' : 'e',
+		'KeyF' : 'a',
+		'KeyG' : ',',
+		'KeyH' : '.',
+		'KeyJ' : 'h',
+		'KeyK' : 't',
+		'KeyL' : 's',
+		'Semicolon' : 'n',
+		'Quote' : 'q',
+		'KeyZ' : 'g',
+		'KeyX' : 'x',
+		'KeyC' : 'j',
+		'KeyV' : 'k',
+		'KeyB' : '-',
+		'KeyN' : '?',
+		'KeyM' : 'r',
+		'Comma' : 'm',
+		'Period' : 'f',
+		'Slash' : 'p',
+		'shiftLayer' : 'default',
+	}, 
 	azerty : {
 		'Minus' : ")",
 		'Equal' : "=",
